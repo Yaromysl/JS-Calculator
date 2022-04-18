@@ -1,0 +1,17 @@
+input [type='button'] 
+{
+ border-radius: 10px;
+ border-color: black;
+ background-color: #1F85DE;
+ width: 100%;
+ color: white;
+}
+input [type='text']
+{
+  border-radius: 10px; 
+  border-color: white;
+  text-align: right; 
+  background-color: black;
+  color: white;
+  width: 100%;
+}

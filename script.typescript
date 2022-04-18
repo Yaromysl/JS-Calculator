@@ -1,0 +1,17 @@
+function display(val) {
+  document.getElementById("textval").value+=val;
+}
+function compute() {
+  try {
+    var x =                    document.getElementById("textval").value;
+    var y = eval(x);
+  document.getElementById("textval").value = y;
+} catch(error) {
+  alert(error.message);
+}
+}
+function clrText() 
+{
+  console.log(clrText);
+  document.getElementById("textval").value= "";
+}
